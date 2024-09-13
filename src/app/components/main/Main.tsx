@@ -1,6 +1,6 @@
-import React from 'react'
-import Heading from '../Heading'
-import Paragraph from '../Paragraph'
+import React from 'react';
+import Heading from '@/app/components/Heading';
+import Paragraph from '@/app/components/Paragraph';
 import Image from 'next/image'
 
 function Main() {
@@ -11,7 +11,7 @@ function Main() {
             <Paragraph>I am a technical director at Devlabs ASU.</Paragraph>
         </div>
 
-        <Image className="h-96 w-full bg-gray-200" />
+        <Image src="" alt="Me" className="h-96 w-full bg-gray-200" />
     </div>
   )
 }
